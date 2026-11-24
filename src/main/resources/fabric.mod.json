@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "voicecraft_ai",
+  "version": "${version}",
+  "name": "VoiceCraft AI",
+  "description": "Voice-controlled Minecraft assistant.",
+  "authors": ["Nebrion Verse,NotHeartYT,praveen_god_67"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.nebrionverse.voicecraft.VoiceCraftClient"] },
+  "depends": { "fabricloader": ">=0.19.3", "minecraft": "~1.21.11", "java": ">=21", "fabric-api": "*" }
+}
